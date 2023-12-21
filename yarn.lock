@@ -569,6 +569,14 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.42.0.tgz#484a1d638de2911e6f5a30c12f49c7e4a3270fb6"
   integrity sha512-6SWlXpWU5AvId8Ac7zjzmIOqMOba/JWY8XZ4A7q7Gn1Vlfg/SFFIlrtHXt9nPn4op9ZPAkl91Jao+QQv3r/ukw==
 
+"@extend-chrome/storage@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@extend-chrome/storage/-/storage-1.5.0.tgz#7823964481af4d93c9dc08b025728175a02824b3"
+  integrity sha512-JhoBZ1xIzu0/mauNR/MadUsfNsWP1lTmWR8RlVJvWStUifzNZdAxI2i8NFCkd4RfjyTn4FcDETik3SDlAfGQRA==
+  dependencies:
+    chrome-promise "^3.0.5"
+    rxjs "^6.5.5 || ^7.1.0"
+
 "@humanwhocodes/config-array@^0.11.10":
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.10.tgz#5a3ffe32cc9306365fb3fd572596cd602d5e12d2"
@@ -1701,6 +1709,11 @@ chokidar@^3.5.3:
     readdirp "~3.6.0"
   optionalDependencies:
     fsevents "~2.3.2"
+
+chrome-promise@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/chrome-promise/-/chrome-promise-3.0.5.tgz#47132edf44d9cc12a768d72f6064a6b083d77b00"
+  integrity sha512-ekIevrJOO5S6ezSzl5TdaLhlQkovY5nVaNSgA2XyhuNtlGniUvTbf7rzH95alh1OajArwoP2xVGYUJbpVLmZYA==
 
 ci-info@^3.2.0:
   version "3.8.0"
@@ -4363,6 +4376,13 @@ rxjs@7.5.7:
   version "7.5.7"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.5.7.tgz#2ec0d57fdc89ece220d2e702730ae8f1e49def39"
   integrity sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==
+  dependencies:
+    tslib "^2.1.0"
+
+"rxjs@^6.5.5 || ^7.1.0":
+  version "7.8.1"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.1.tgz#6f6f3d99ea8044291efd92e7c7fcf562c4057543"
+  integrity sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==
   dependencies:
     tslib "^2.1.0"
 
