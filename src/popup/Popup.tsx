@@ -1,9 +1,9 @@
 const Popup = () => {
   return (
     <>
-      <div className="w-60 h-40 flex flex-col items-center justify-center font-mono">
+      <div className="w-52 h-32 flex flex-col items-center justify-center font-mono">
         <label htmlFor="languages" className="font-bold mb-2">
-          Select target language:{' '}
+          Target language:{' '}
         </label>
         <select id="language" name="target_lang" className="text-xs">
           <option value="JA" selected>
