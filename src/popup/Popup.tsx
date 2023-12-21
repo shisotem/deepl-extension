@@ -1,15 +1,17 @@
 const Popup = () => {
-  document.body.className = 'w-[15rem] h-[15rem]';
-
   return (
     <>
-      <div className="flex h-screen items-center justify-center">
-        <p>Select target language: </p>
-        <select name="target_lang">
-          <option value="JA">JA</option>
-          <option value="EN">EN</option>
-          <option value="ZH">ZH</option>
-          <option value="KO">KO</option>
+      <div className="w-60 h-40 flex flex-col items-center justify-center font-mono">
+        <label htmlFor="languages" className="font-bold mb-2">
+          Select target language:{' '}
+        </label>
+        <select id="language" name="target_lang" className="text-xs">
+          <option value="JA" selected>
+            Japanese
+          </option>
+          <option value="EN">English</option>
+          <option value="ZH">Chinese</option>
+          <option value="KO">Korean</option>
         </select>
       </div>
     </>
